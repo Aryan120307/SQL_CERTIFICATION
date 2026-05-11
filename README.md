@@ -27,25 +27,41 @@ This repository contains my hands-on SQL Server practice files where I explored 
 ### Covered Concepts
 
 * Employee table creation
-* Primary key implementation
-* Insert queries
-* SELECT queries
+* PRIMARY KEY implementation
+* INSERT INTO statements
+* SELECT specific columns
+* SELECT * queries
 * DISTINCT keyword
-* WHERE conditions
+* WHERE clause filtering
 * AND / OR / NOT operators
 * LIKE operator
 * BETWEEN operator
-* ALTER TABLE
+* ALTER TABLE ADD COLUMN
 * Department table creation
+* Pattern matching using LIKE
 
-### Skills Practiced
+### SQL Operations Performed
 
-✔ Employee database management
-✔ Filtering & searching records
-✔ Conditional querying
-✔ Pattern matching using LIKE
-✔ Table modification operations
-✔ Real-world employee dataset handling
+```sql
+CREATE TABLE
+INSERT INTO
+SELECT
+DISTINCT
+WHERE
+LIKE
+BETWEEN
+ALTER TABLE
+PRIMARY KEY
+```
+
+### What I Practiced
+
+✔ Employee record management
+✔ Data filtering techniques
+✔ Query condition handling
+✔ Pattern searching
+✔ Basic relational database operations
+✔ SQL query writing fundamentals
 
 ---
 
@@ -54,18 +70,35 @@ This repository contains my hands-on SQL Server practice files where I explored 
 ### Covered Concepts
 
 * Database creation
-* Table creation
-* Insert queries
-* Select queries
-* Alter table operations
-* Rename & drop columns
+* Database selection using USE
+* Student table creation
+* ALTER TABLE ADD COLUMN
+* Rename column using sp_rename
+* DROP COLUMN
+* Employee table creation
+* UPDATE statement
+* DELETE statement
 
-### Skills Practiced
+### SQL Operations Performed
+
+```sql
+CREATE DATABASE
+USE DATABASE
+CREATE TABLE
+ALTER TABLE
+sp_rename
+UPDATE
+DELETE
+```
+
+### What I Practiced
 
 ✔ Database initialization
-✔ Table structure handling
-✔ CRUD fundamentals
-✔ SQL syntax understanding
+✔ Table modification operations
+✔ Column management
+✔ Record updating & deletion
+✔ SQL Server syntax understanding
+✔ Employee & student database handling
 
 ---
 
@@ -73,19 +106,35 @@ This repository contains my hands-on SQL Server practice files where I explored 
 
 ### Covered Concepts
 
-* Primary key
-* Unique constraint
-* Check constraint
-* Default values
-* Update queries
-* Alter operations
+* NOT NULL constraint
+* PRIMARY KEY constraint
+* CHECK constraint
+* UNIQUE constraint
+* DEFAULT values
+* INSERT queries
+* UPDATE using WHERE clause
+* ALTER TABLE DROP COLUMN
+* ALTER TABLE ADD COLUMN
 
-### Skills Practiced
+### SQL Operations Performed
 
-✔ Data integrity management
-✔ Constraint handling
-✔ Real-world database rules
-✔ Updating structured data
+```sql
+CHECK
+UNIQUE
+DEFAULT
+ALTER TABLE
+UPDATE
+DROP COLUMN
+ADD COLUMN
+```
+
+### What I Practiced
+
+✔ Data integrity enforcement
+✔ Constraint management
+✔ Store database management
+✔ Dynamic column operations
+✔ Updating records conditionally
 
 ---
 
@@ -96,15 +145,31 @@ This repository contains my hands-on SQL Server practice files where I explored 
 * INNER JOIN
 * LEFT JOIN
 * RIGHT JOIN
-* Employee & department tables
-* Relational mapping
+* Employee & Department relationship
+* PRIMARY KEY addition
+* DELETE operation
+* UPDATE statement
+* Relational database mapping
 
-### Skills Practiced
+### SQL Operations Performed
 
-✔ Multi-table querying
-✔ Understanding joins
+```sql
+INNER JOIN
+LEFT JOIN
+RIGHT JOIN
+ALTER TABLE
+DELETE
+UPDATE
+PRIMARY KEY
+```
+
+### What I Practiced
+
 ✔ Relational database concepts
-✔ Data retrieval logic
+✔ Multi-table querying
+✔ Join operations understanding
+✔ Department-wise employee mapping
+✔ Managing relationships between tables
 
 ---
 
@@ -112,17 +177,36 @@ This repository contains my hands-on SQL Server practice files where I explored 
 
 ### Covered Concepts
 
-* Advanced joins
-* Primary key modifications
+* INNER JOIN
+* LEFT JOIN
+* RIGHT JOIN
+* FULL JOIN concept
 * ALTER COLUMN
-* Table relationships
+* PRIMARY KEY modification
+* UPDATE using JOIN
+* DELETE using JOIN
+* TRUNCATE TABLE
+* DELETE statement
 
-### Skills Practiced
+### SQL Operations Performed
 
-✔ Schema modification
-✔ Constraint management
-✔ SQL Server operations
-✔ Relationship optimization
+```sql
+JOINS
+TRUNCATE
+DELETE
+UPDATE USING JOIN
+ALTER COLUMN
+PRIMARY KEY
+```
+
+### What I Practiced
+
+✔ Advanced join handling
+✔ Table cleanup operations
+✔ Updating records using joins
+✔ Deleting records conditionally
+✔ Schema modification techniques
+✔ SQL Server relational operations
 
 ---
 
@@ -131,47 +215,108 @@ This repository contains my hands-on SQL Server practice files where I explored 
 ### Covered Concepts
 
 * MERGE statement
-* Insert / Update / Delete using merge
-* Source & target synchronization
-* Add & drop columns
+* INSERT / UPDATE / DELETE through MERGE
+* ALTER TABLE ADD/DROP COLUMN
+* Temporary tables
+* Aggregate functions
+* String functions
+* CASE statement
+* IIF condition
+* Scalar User Defined Function (UDF)
+* Table Valued Function
+* ORDER BY clause
+* TOP clause
+* GROUP BY
+* HAVING clause
+* UNION
+* INTERSECT
+* EXCEPT
 
-### Skills Practiced
+### SQL Operations Performed
 
-✔ Advanced SQL operations
-✔ Data synchronization
-✔ Enterprise-level SQL concepts
-✔ Dynamic dataset handling
+```sql
+MERGE
+MIN
+MAX
+COUNT
+SUM
+AVG
+LTRIM
+UPPER
+LOWER
+REVERSE
+SUBSTRING
+CASE
+IIF
+FUNCTIONS
+GROUP BY
+HAVING
+UNION
+INTERSECT
+EXCEPT
+```
+
+### What I Practiced
+
+✔ Enterprise-level SQL operations
+✔ Data synchronization using MERGE
+✔ Aggregate & string functions
+✔ Conditional SQL logic
+✔ Creating user-defined functions
+✔ Advanced querying techniques
+✔ Set operators handling
+✔ Temporary table usage
+✔ Analytical SQL concepts
 
 ---
 
-# ⚡ SQL Commands Used
+# ⚡ SQL Commands & Concepts Covered
 
 ```sql
 CREATE DATABASE
+USE
 CREATE TABLE
+PRIMARY KEY
+CHECK
+UNIQUE
+DEFAULT
 INSERT INTO
 SELECT
-UPDATE
+DISTINCT
+WHERE
+LIKE
+BETWEEN
 ALTER TABLE
+DROP COLUMN
+ADD COLUMN
+UPDATE
+DELETE
+TRUNCATE
 INNER JOIN
 LEFT JOIN
 RIGHT JOIN
-PRIMARY KEY
-UNIQUE
-CHECK
-DEFAULT
 MERGE
+GROUP BY
+HAVING
+ORDER BY
+UNION
+INTERSECT
+EXCEPT
+FUNCTIONS
+CASE
+IIF
 ```
 
 ---
 
 # 🚀 Current Learning Focus
 
-* Advanced SQL Queries
-* SQL Server Management
+* Advanced SQL Query Optimization
+* Database Management Systems
+* SQL Server Advanced Concepts
 * Time Series Algorithms
-* Data Analytics
 * Backend & Database Logic
+* Real-world Data Analytics
 
 ---
 
@@ -179,11 +324,15 @@ MERGE
 
 ## Aryan Sharma
 
-Passionate about Data Analytics, SQL, Machine Learning & Real-world Problem Solving.
+Passionate about SQL, Data Analytics, Machine Learning, Time Series Forecasting & Real-world Problem Solving.
 
 ---
 
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=gradient&text=SQL%20Learning%20Journey&fontAlign=50&fontAlignY=40&fontSize=35" />
+
+</div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=gradient&text=SQL%20Learning%20Journey&fontAlign=50&fontAlignY=40&fontSize=35" />
 
