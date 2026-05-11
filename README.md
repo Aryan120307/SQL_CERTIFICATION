@@ -323,8 +323,8 @@ IIF
 # 👨‍💻 Author
 
 ## Aryan Sharma
+Aspiring Data Scientist & AI Enthusiast
 
-Passionate about SQL, Data Analytics, Machine Learning, Time Series Forecasting & Real-world Problem Solving.
 
 ---
 
@@ -334,6 +334,3 @@ Passionate about SQL, Data Analytics, Machine Learning, Time Series Forecasting 
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=gradient&text=SQL%20Learning%20Journey&fontAlign=50&fontAlignY=40&fontSize=35" />
-
-</div>
